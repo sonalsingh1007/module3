@@ -1,40 +1,58 @@
 body{
-    font-size:16px;
-    color:#000;
-    background-color: #fff;
-    font-family: 'Oxygen', sans-serif;
+    color:black;
+    font-size:2em;
+    overflow-x:inherit;
 }
-#nav-header{
+.navb{
     background-color: #adadad;
-    border-radius: 0;
-    /* height:100px; */
+    border-radius:0px;
 }
-
 .navbar-brand a{
-    text-decoration: none;
-}
-.navbar-brand h5{
     text-transform: uppercase;
-    font-size: 1.5em;
     font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-    color:white;
-}
-.navbar-brand span{
-    font-size: 15px;
-    text-transform: capitalize;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-
-}
-.desc{
-    background-color: #adadad;
-}
-.desc h4,.desc p{
+    font-size: 1.3em;
     color:black;
 }
-.list{
-    border:1px solid black;
+.menu{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.data{
+    background-color: #adadad;
+    padding:1em;
+    max-width:100%;
+    margin:1em;
+}
+.main-head{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn{
+    color:black;
+}
+.navbar-nav li a{
+    color:black;
+}
+.navbar-default .navbar-nav li a{
+    color:black;
+    text-align: center;
+}
+.navbar-default .navbar-nav li{
+    border-bottom: 1px solid black;
+}
+.navbar-nav{
+    margin-bottom: 0px;
+}
+.navbar-default .navbar-toggle{
+    border-color:black;
+    background-color:#adadad;
+}
+.navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:hover{
+    border-color: #fff;
+}
+#header-nav{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
 }
