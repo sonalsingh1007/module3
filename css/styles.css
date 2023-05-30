@@ -1,0 +1,40 @@
+body{
+    font-size:16px;
+    color:#000;
+    background-color: #fff;
+    font-family: 'Oxygen', sans-serif;
+}
+#nav-header{
+    background-color: #adadad;
+    border-radius: 0;
+    /* height:100px; */
+}
+
+.navbar-brand a{
+    text-decoration: none;
+}
+.navbar-brand h5{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:white;
+}
+.navbar-brand span{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.desc{
+    background-color: #adadad;
+}
+.desc h4,.desc p{
+    color:black;
+}
+.list{
+    border:1px solid black;
+}
